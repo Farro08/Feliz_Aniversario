@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `Feliz Aniversario Mi Dani 🩷:\n\nDesde el primer momento supe que ibas a ser parte de mi vida. No porque estuviera seguro de que estarías conmigo, sino porque sabía que alguien como tú no se encuentra dos veces. Eres única y especial. Agradezco al destino y a ti por permitirme ser parte de tu vida\n\nGracias por acompañarme en este primer mes como enamorados, por entenderme y por llenar mis días de amor.\n\nTe quiero más de lo que las palabras pueden expresar. Gracias por hacer todo más fácil. Gracias por darme la paz que necesitaba. Simplemente, gracias.`;  } else {
+    text = `Feliz Mes-versario Mi Dani 🩷:\n\nDesde el primer momento supe que ibas a ser parte de mi vida. No porque estuviera seguro de que estarías conmigo, sino porque sabía que alguien como tú no se encuentra dos veces. Eres única y especial. Agradezco al destino y a ti por permitirme ser parte de tu vida\n\nGracias por acompañarme en este primer mes como enamorados, por entenderme y por llenar mis días de amor.\n\nTe quiero más de lo que las palabras pueden expresar. Gracias por hacer todo más fácil. Gracias por darme la paz que necesitaba. Simplemente, gracias.`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
@@ -147,7 +147,7 @@ function showCountdown() {
   let startParam = getURLParam('start');
   let eventParam = getURLParam('event');
   let startDate = startParam ? new Date(startParam + 'T00:00:00') : new Date('2025-04-26T00:00:00'); 
-  let eventDate = eventParam ? new Date(eventParam + 'T00:00:00') : new Date('2025-05-26T00:00:00');
+  let eventDate = eventParam ? new Date(eventParam + 'T00:00:00') : new Date('2026-04-26T00:00:00');
 
   function update() {
     const now = new Date();

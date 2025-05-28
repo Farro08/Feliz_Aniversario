@@ -1,6 +1,3 @@
-//© Zero - Código libre no comercial
-
-
 // Cargar el SVG y animar los corazones
 fetch('Img/treelove.svg')
   .then(res => res.text())
